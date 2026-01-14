@@ -7,7 +7,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://desembermethod_db_user:v4ADkgywaYxrZW1y@cluster0.ghvofhb.mongodb.net/?appName=Cluster0")
 DATABASE_CHANNEL_ID = int(os.getenv("DATABASE_CHANNEL_ID", "-1003624112121"))
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7562079827"))
-PICS = (os.environ.get("PICS", "")).split()
+PICS = (os.environ.get("PICS", "https://i.ibb.co/Y4bGBdr9/photo-2026-01-14-16-15-31-7595251682716418064.jpg")).split()
 LOG_CHNL = int(os.getenv("LOG_CHNL", "-1003629003804"))
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "BYGOD_HELPER") # Without @
 IS_FSUB = bool(os.environ.get("FSUB", False))
